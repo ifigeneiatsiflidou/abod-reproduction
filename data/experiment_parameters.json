@@ -1,0 +1,41 @@
+{
+  "from_paper": {
+    "dataset_size": 1000,
+    "n_outliers": 10,
+    "n_gaussian_clusters": 5,
+    "dimensions": [
+      25,
+      50,
+      100
+    ],
+    "fastabod_sample_rule": "k = 0.1 * dbsize",
+    "lof_minpts_range_in_paper": [
+      10,
+      25
+    ],
+    "outlier_distribution": "uniform on the complete data space"
+  },
+  "calculated_from_paper": {
+    "n_normal": 990,
+    "n_per_cluster": 198,
+    "fastabod_k": 100
+  },
+  "reproduction_choices": {
+    "centre_range": [
+      -10.0,
+      10.0
+    ],
+    "standard_deviation_range": [
+      0.5,
+      1.5
+    ],
+    "seeds": {
+      "25": 10,
+      "50": 20,
+      "100": 30
+    },
+    "lof_minpts": 20,
+    "nearest_neighbour_metric": "euclidean",
+    "fastabod_robustness_k": 50
+  }
+}

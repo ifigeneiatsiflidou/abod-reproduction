@@ -1,0 +1,8 @@
+dimensions,check,value,expected,passed
+0,four_point_abof_max_difference,1.491862189340054e-16,less than 1e-12,True
+25,dataset_structure,1000.0,1000 rows; 990 normal; 10 outliers; five clusters of 198,True
+25,nearest_neighbour_separation_ratio,3.571654115141939,diagnostic only; above 1 means clear separation,True
+50,dataset_structure,1000.0,1000 rows; 990 normal; 10 outliers; five clusters of 198,True
+50,nearest_neighbour_separation_ratio,3.7035665845530152,diagnostic only; above 1 means clear separation,True
+100,dataset_structure,1000.0,1000 rows; 990 normal; 10 outliers; five clusters of 198,True
+100,nearest_neighbour_separation_ratio,3.9923577755430197,diagnostic only; above 1 means clear separation,True
